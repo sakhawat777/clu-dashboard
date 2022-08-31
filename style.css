@@ -36,7 +36,12 @@ body{
  margin-top: 50px;
 }
 .items li {
+    list-style:none;
     margin-bottom: 45px;
+}
+.items li:hover {
+    background: #253047;
+    cursor: pointer;
 }
 .items a{
     color: #7D7D7E;
