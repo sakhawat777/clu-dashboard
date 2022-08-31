@@ -19,9 +19,14 @@ body{
     text-align: center;
    
 }
-.logo h3, h6{
+.logo h3{
     color: #FFFFFF;
-   text-align: center;
+    text-align: center;
+}
+.logo p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.6rem;
 }
 .logo-img{
     margin-top: 15px;
@@ -36,5 +41,6 @@ body{
 .items a{
     color: #7D7D7E;
     text-decoration: none;
+    margin-left: 10px;
 }
 
