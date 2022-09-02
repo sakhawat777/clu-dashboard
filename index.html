@@ -1,90 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CARRIERLOOKUP</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <!-- Menu Section -->
-        <section id="menu">
-            <div class="logo">
-                    <img class="logo-img" src="./images/logo.png" alt="">
-                    <h3>CARRIERLOOKUP</h3>
-                    <p>ACCURATE CARRIER INFO</p>
-            </div>
-            <div class="items">
-                <li>
-                    <img  src="./images/dashboard.png" alt=""> <a  href="#">Dashboard</a> 
-                </li>
-                <li><img  src="./images/lookup.png" alt=""> <a  href="#">Lookup</a> </li>
-                <li> <img  src="./images/file.png" alt=""> <a  href="#">Files </a> </li>
-                <li><img src="./images/log.png" alt=""> <a  href="#">Logs</a> </li>
-               <li> <img  src="./images/buy.png" alt=""> <a  href="#">Buy Credits</a> </li>
-                <li><img  src="./images/integrations.png" alt=""> <a  href="#">Integrations</a> </li>
-                <li><img  src="./images/profile.png" alt=""> <a  href="#">My Profile</a></li>
-            </div>
-        </section>
-        <!-- Navigation Section -->
-        <section id="navigation">
-            <div class="balance-info">
-                <h4 class="balance-header">Balance :  <span class="dollar">$125</span></h4>
-                <div id="alexa-main">
-                    <div class="alexa-info">
-                        <img src="./images/alexa.png" alt="">
-                        <h4>Alexa Jui</h4>
-                        <img class="arrow-img" src="./images/d-arrow.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- cards Section -->
-            <section id="cards">
-                <div class="wrapper">
-                    <div class="alexa-cardInfo box">
-                        <img src="./images/alexa-jui.png" alt="Avatar" style="width:100px">
-                        <div class="container">
-                          <h4><b>Alexa Jui</b></h4>
-                          <p>alexajui@gmail.com <br>
-                            +1 354 785 4125 <br>
-                            3213 D Street, Columbus, USA
-                        </p>
-                        </div>
-                      </div>
-                      
-                      <div class="credit-card box">
-                        <div class="card-header">
-                            <h4>
-                                Your Credit Cards
-                            </h4>
-                            <div class="card-wrap">
-                                <div class="cardInfo-1">
-                                   <div class="card-body">
-                                    <div>
-                                        <h3 class="card1-header">Credit Card 1</h3>
-                                         <p>xxxxxxxxxxxx4684</p>
-                                    </div>
-                                    <div class="card-img">
-                                        <img src="./images/delete-deselect.png" alt="">
-                                    </div>
-                                   </div>
-                                </div>
-                                <div class="cardInfo-2">
-                                    <h3 class="card2-header">Credit Card 2 (Default)</h3>
-                                    <p>xxxxxxxxxxxx4242</p>
-                                </div>
-                                <div class="cardInfo-3">
-                                    <h3 class="card3-header">Credit Card 3</h3>
-                                    <p>xxxxxxxxxxxx1254</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                      </div>
-                      
-                    </div>
-                    
-            </section>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CARRIER LOOKUP</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="top-container">
+			<div class="top-navbar">
+				<div class="logo">
+					<img src="./images/logo.png" alt="no image" width="42px" />
+					<div class="logo-text">
+						<span>CARRIER LOOKUP</span>
+						<span style="color: var(--color-light)">ACCURATE CARRIER INFO</span>
+					</div>
+				</div>
+				<div class="right-content">
+					<span>Balance:</span>
+					<span>$125</span>
+					<div class="profile-dropdown" id="dropdownBtn">
+						<div class="content">
+							<img src="./images/alexa-jui.png" alt="no image" width="40px" />
+							<span>Alexa jui</span>
+							<img src="./images/down-arrow.png" alt="no image" width="12px" />
+						</div>
+						<div class="nav-dropdownMenu" id="dropdownMenu">
+							<div class="dropdownMenu-item">
+								<p>My Profile</p>
+							</div>
+							<div class="dropdownMenu-item">
+								<p>Add Fund</p>
+							</div>
+							<div class="dropdownMenu-item">
+								<p>API Documentation</p>
+							</div>
+							<div class="dropdownMenu-item">
+								<p>Log Out</p>
+							</div>
+							<img style="margin-top: 12px" src="./images/dropBtn.png" alt="" width="130px" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-container">
+				<div class="sidebar">
+					<div class="sidebar-content">
+						<div class="sidebar-item">
+							<img src="./images/dashboard.png" alt="" width="22px" />
+							<span>Deshboard</span>
+						</div>
+						<div class="sidebar-item">
+							<img src="./images/lookup.png" alt="" width="22px" />
+							<span>lookup</span>
+						</div>
+						<div class="sidebar-item">
+							<img src="./images/file.png" alt="" width="22px" />
+							<span>Files</span>
+						</div>
+						<div class="sidebar-item">
+							<img src="./images/log.png" alt="" width="22px" />
+							<span>Logs</span>
+						</div>
+						<div class="sidebar-item">
+							<img src="./images/buy.png" alt="" width="22px" />
+							<span>Buy credits</span>
+						</div>
+						<div class="sidebar-item">
+							<img src="./images/integrations.png" alt="" width="22px" />
+							<span>Integration</span>
+						</div>
+						<div class="sidebar-item">
+							<img src="./images/profile.png" alt="" width="22px" />
+							<span>My Profile</span>
+						</div>
+					</div>
+				</div>
+				<div class="body-content">
+					<div class="topside">
+						<div class="profile-info">
+							<img src="./images/alexa-jui.png" alt="" width="82px" />
+							<span>Alexa Jui</span>
+							<span style="color: var(--color-muted-text)">alexajui@gmail.com</span>
+							<span style="color: var(--color-muted-text)">+1 354 785 4125</span>
+							<span style="color: var(--color-muted-text)">3213 D Street, Columbus, USA</span>
+						</div>
+						<div class="credits">
+							<div class="card1">
+								<span style="color: var(--color-light)">Credit Card 1</span>
+								<span>xxxxxxxxxxxx4684</span>
+								<img class="card-icon" src="./images/delete-deselect.png" alt="" width="22px" />
+								<span class="card-headline" style="color: black">Your Credit Card</span>
+							</div>
+							<div class="card2">
+								<span style="color: var(--color-light)">Credit Card 2 (Default)</span>
+								<span>xxxxxxxxxxxx4242</span>
+								<img class="card-icon" src="./images/delete-select.png" alt="" width="22px" />
+							</div>
+
+							<div class="card3">
+								<span style="color: var(--color-light)">Credit Card 3</span>
+								<span>xxxxxxxxxxxx1254</span>
+								<img class="card-icon" src="./images/delete-deselect.png" alt="" width="22px" />
+							</div>
+						</div>
+					</div>
+
+					<div class="bottomSide">
+						<div class="topPart">
+							<span>Update Profile</span>
+							<span>Change Password</span>
+							<span>Email Notification</span>
+							<span>Auto recherging sitting</span>
+						</div>
+						<div class="bottomPart">
+							<div class="item">
+								<div class="toggle-icon">
+									<div class="circle"></div>
+								</div>
+								<span>Notify me when list verification complete</span>
+							</div>
+							<div class="item">
+								<div class="toggle-icon-2">
+									<div class="circle-2"></div>
+								</div>
+								<span style="color: var(--color-light)">Notify me when list verification complete</span>
+							</div>
+							<div class="item">
+								<div class="toggle-icon">
+									<div class="circle"></div>
+								</div>
+								<span>Notify me when list verification complete</span>
+							</div>
+							<div class="bottomBorder"></div>
+							<div class="item">
+								<div class="toggle-icon">
+									<div class="circle"></div>
+								</div>
+								<span>Notify me when list verification complete</span>
+							</div>
+
+							<div class="inputForm">
+								<div>
+									<!-- //......... -->
+									<div class="container">
+										<form action="action_page.php">
+											<label for="fname" style="color: black">Send Email To</label>
+
+											<input type="text" id="fname" name="firstname" placeholder="alexajui@gmail.com" />
+										</form>
+									</div>
+									<!-- //....... -->
+								</div>
+								<div>
+									<!-- //......... -->
+									<div class="container">
+										<form action="action_page.php">
+											<label for="fname" style="color: black">When Cridits are less than</label>
+											<input type="text" id="fname" name="firstname" placeholder="50" />
+										</form>
+									</div>
+									<!-- //....... -->
+								</div>
+							</div>
+							<div class="bottomBorder"></div>
+							<button class="saveBtn">Save Change</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<script src="./index.js"></script>
+	</body>
 </html>
