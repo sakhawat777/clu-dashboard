@@ -9,3 +9,14 @@ dropdownBtn.addEventListener('click', () => {
 		dropdownMenu.style.display = 'block';
 	}
 });
+// subItem
+const forSubItemBtn = document.querySelector('#forSubItem');
+const subItemMenu = document.querySelector('#subItem');
+
+forSubItemBtn.addEventListener('click', () => {
+	if (subItemMenu.style.display == 'block') {
+		subItemMenu.style.display = 'none';
+	} else {
+		subItemMenu.style.display = 'block';
+	}
+});

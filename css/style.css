@@ -155,7 +155,7 @@ align-items: start;
 .sidebar .sidebar-content .sidebar-item {
    display: flex;
    align-items: center;
-   padding: 20px 12px;
+   padding: 20px 6px;
 
 }
 
@@ -177,6 +177,29 @@ cursor: pointer;
 .left-side{
 height: auto;
     
+}
+
+/* // sub item */
+
+
+.subItem{
+    display: flex;
+        align-items: center;
+         padding-left: 8px;
+        margin-left: 25px;
+        display: none;
+        cursor: pointer;
+}
+.subItem div span{
+ font-size: 15px;
+ margin: 4px 0px;
+ margin-left: 5px;
+}
+.subItem-content{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px;
 }
 
 /* ==========Side bar End=========== */
